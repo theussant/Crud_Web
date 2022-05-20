@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+</head>
+
+<body>
+    <div class="principal">
+
+        <header>
+            <nav>
+
+                <a class="logo" hf="/">StarXAcademy</a>
+
+                <ul class="nav-list">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="login.html">Acesso Funcionário</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <div class="bodyall">
+            <main>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <div class="header-crud">
+                    <button type="button" id="cadastrarAluno">Matricular novo aluno</button>
+                </div>
+                <br>
+                <br>
+                <div class="container-crud">
+
+                    <span>Matricula de alunos</span>
+
+                    <table id="tabelaAlunos" class="lista">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>E-mail</th>
+                                <th>CPF</th>
+                                <th>Curso</th>
+                                <th>Ação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                    <!-- Para apagar a janela. -->
+                    <div class="janela" id="janela2">
+                        <div class="janela-content">
+                            <header class="janela-header">
+                                <h2>Excluir Aluno</h2>
+                                <span class="janela-close" id="JanelaClose2">&#10006;</span>
+                            </header>
+                            <div id="avisoDelete">
+                                <!-- aviso de delete -->
+                            </div>
+                            <footer class="janela-footer">
+                                <button id="apagar">Apagar</button>
+                                <button id="cancelar2">Cancelar</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <!-- Janela para criar e editar. -->
+                    <div class="janela" id="janela">
+                        <div class="janela-content">
+                            <header class="janela-header">
+                                <h2>Novo Aluno</h2>
+                                <span class="janela-close" id="JanelaClose">&#10006;</span>
+                            </header>
+                            <form id="form" class="janela-form">
+                                <input type="text" id="nome" data-index="new" class="janela-campo"
+                                    placeholder="Nome do Aluno" required>
+                                <input type="email" id="email" class="janela-campo" placeholder="E-mail do Aluno"
+                                    required>
+                                <input type="text" id="cpf" class="janela-campo" placeholder="CPF do Aluno" required>
+                                <input type="text" id="curso" class="janela-campo" placeholder="Curso" required>
+                            </form>
+                            <footer class="janela-footer">
+                                <button id="salvar">Salvar</button>
+                                <button id="cancelar">Cancelar</button>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <div class="footer">
+            <footer>
+                <a href="https://github.com/Theuz6">
+                    <i class="devicon-github-original"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/matheus-silva-a01916235/">
+                    <i class="devicon-linkedin-plain"></i>
+                </a>
+                <a href="https://www.instagram.com/theuz_lz/">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </footer>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

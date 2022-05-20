@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    text-shadow: 0 0 4px #fff, 0 0 4px #ff0;
+}
+
+a:active{
+    opacity: 0.2;
+}
+
+button {
+    padding: 1.3em 3em;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 300;
+    color: #fff;
+    background-color:#00469B;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0px 8px 15px black;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-shadow: 0 0 4px #fff, 0 0 4px #ff0;
+   }
+   
+   button:hover {
+    background-color:#191970 ;
+    box-shadow: 0px 15px 20px #006EB5;
+    color: #fff;
+   }
+   
+   button:active {
+    transform: translateY(-4px);
+   }
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: midnightblue;
+    height: 8vh;
+}
+
+main {
+    background-image: url("./assets/arylan-hill-3o6NXErKXwo-unsplash.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height: 120vh;
+}
+
+h2{
+    color: #fff;
+}
+
+h3{
+    color:#fff
+}
+
+p{
+    color: #fff;
+}
+
+section{
+    height: 600px;
+}
+
+
+.logo{
+    font-size: 25px;
+    text-transform:capitalize;
+    text-align:center;
+    letter-spacing: 4px;
+    text-shadow: 0 0 4px #fff;
+
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 2px;
+    align-items:center;
+    justify-content: space-around;
+    margin-left: 32px;
+    text-shadow: 0 0 4px #fff;
+    border:solid #006EB5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+}
+
+
+.central{
+    margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.card1{
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: midnightblue;
+    margin: 10px;
+}
+
+.card2{
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: midnightblue;
+    margin: 10px;
+}
+
+.card3{
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: midnightblue;
+    margin: 10px;
+}
+
+
+.footer{
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: midnightblue;
+    height: 8vh; 
+    color:#fff;
+    text-shadow: 0 0 4px #fff;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.mar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.text-main1{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.descri{
+    color:#fff;
+    font-weight: 200;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.button-card{
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button-card-main{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.card-login{
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: midnightblue;
+    margin: 100px;
+}
+
+.img-login{
+    border-radius: 50px;
+}
+
+.h2-login{
+    text-shadow: 0 0 4px #fff;
+}
+
+.login-dados > input{
+    border-radius: 10px;
+    outline: 0;
+    width: 70%;
+    height: 30px;
+}
+
+.container-crud{
+    width: 659px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: midnightblue;
+    padding: 20px;
+    margin: auto;
+    color:#fff;
+    text-shadow: 0 0 4px #fff;
+}
+
+.container-crud > span{
+    font-weight: 900;
+    font-size: 20px;
+    word-break: break-all;
+    color: #fff;
+    text-shadow: 0 0 4px #fff;
+}
+
+.header-crud > button{
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.janela{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #00000090;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.janela.active{
+    opacity: 1;
+    z-index: 1;
+}
+
+.janela-content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 50vw;
+    margin: 15vh auto;
+    padding-bottom: 20px;
+    background-color: midnightblue;
+    box-shadow: 1px 1px 10px black;
+}
+
+.janela-header{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+
+
+.janela-close{
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.janela-close:hover{
+    background-color: #FF4949;
+    color: white;
+}
+
+.janela-form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.janela-campo{
+    width: calc(50% - 10px);
+    height: 40px;
+    outline-style: none;
+    border-style: none;
+    box-shadow: 0 0 2px black;
+    padding: 0 10px;
+    font-size:1rem;
+}
+
+.janela-campo:focus{
+    border: 2px solid #006EB5;
+    box-shadow: 0 0 3px black;
+}
+
+
+.janela-footer{
+    background-color: inherit;
+    text-align: right;
+    padding: 0 20px;
+}
+
+.lista{
+    width: 100%;
+    user-select: none;
+    text-align: left;
+}
+
+.lista th{
+    height: 50px;
+    background-color:midnightblue;
+    padding-left: 20px;
+    font-size: 1.2rem;    
+}
+.lista td{
+    color: #fff;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.lista th:last-child,
+.lista td:last-child{
+    padding: 0;
+    min-width: 140px;
+    text-align: center;
+}
+
+.lista tr:hover{
+    background-color:#00469B;
+}
+
+.deletenew{
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+ 
+}
+ 
+.editnew{
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+}
+
