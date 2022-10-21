@@ -1,8 +1,8 @@
-# Projeto-Web-Final-do-Semestre.
+# Projeto Web Final do Semestre :computer:
 
-ProjetoFinalWeb
+## Projeto Final da matéria de Desenvolvimento Web
 
-CRUD com HTML, CSS e JS. Este que foi feito baseado em matricula de alunos, no caso feito na Área do funcionario. Alguns botões não foram usadas pois o foco estava em fazer o CRUD na Área do funcionário.
+### CRUD com HTML, CSS e JS, feito baseado em matricula de alunos. Alguns botões não foram usadas pois o foco estava em fazer o CRUD na Área do funcionário.
 
 ## Home page ##
 ![Captura de Tela (684)](https://user-images.githubusercontent.com/56797146/192923177-b5284e00-fb18-4d41-8a87-4c2df490e636.png)
